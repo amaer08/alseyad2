@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+      background-color: rgb(0, 0, 0);
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:  10px 200px; 
+}
+
+.logo{
+     text-decoration: none;
+     color: rgb(245, 239, 239);
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 1.8em;
+}   
+
+.navigation a{
+    color: #e7dede;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: rgb(194, 38, 38)
+}
+
+section{
+    padding: 100px 200px
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imogee/واجهة\ للويب\ .jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h1 {
+    color: #070707;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: -70px;
+}
+
+ 
+.main-btn{
+     color: #0c0c0c;
+     background-color: #e0bd20;
+     text-decoration: none;
+     font-size: 1.1em;
+     font-weight: 600;
+     display: inline-block;
+     padding: 0.9375em 2.187em;
+     letter-spacing: 1px;
+     border-radius: 15px;
+     margin-bottom: 190px;
+     transition: 2 ease;
+     position: relative;
+     top: 190px;
+     left: -65px;
+}
+
+.main-btn:hover{
+    background-color:  darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: rgb(0, 0, 0);
+    font-size: 1.7em;
+    padding-right: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+} 
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: darkgoldenrod;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 30%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 2s ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.icon{
+    color: #000000;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+   color:rgb(3, 3, 3);
+   font-size: 1.2em;
+   font-weight: 700;
+   margin: 10px;
+}
+
+.projects {
+    background-color: darkgoldenrod;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color:darkgoldenrod;
+    border: 8px solid #000000;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7 ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+:root{
+    background: rgb(0, 0, 0);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+  background-color: (--background
+  );
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 800px;
+}
+
+.card{
+   position: relative;
+   left: 0px;
+   width: 80px;
+   height: 360px;
+   overflow: hidden;
+   background-color: (--background);
+   transition: 0.4s ease-in-out;
+   flex: 0.25;
+}
+
+.card img {
+    height: 360px;
+}
+
+.card:hover{
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+}
+.project-info {
+  padding: 1em;
+}
+
+.project-category{
+    font-size: 1.7em;
+    color:rgb(243, 243, 243);
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details:hover{
+    color: #690000;
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info p{
+    font-size: 1.5em;
+}
+
+.project-card span{
+    font-size: 1.4em;
+}
+.footer {
+    background-color:darkgoldenrod;
+    color: #5c5c5c;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color:rgb(0, 0, 0);
+}
+
+.footer .social-icons a{
+    font-size: 2.4m;
+    padding: 0 12px 0 0;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
